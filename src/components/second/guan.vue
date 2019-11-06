@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div class="box" @click="dian(item,index)" v-for="(item,index) in list" :key="index">
+    <div class="box" @click="dian(item,index)" v-for="(item,index) in list" :key="index">                                                       3w
       <p>
         {{item.p}}
       </p>
